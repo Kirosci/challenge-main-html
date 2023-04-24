@@ -77,7 +77,7 @@
         var imageContainer = document.getElementById("imageContainer");
         var audio = new Audio('m-audio.mp3');
 
-        const response = await fetch("secure/secure.txt");
+        const response = await fetch("secure.txt");
         const secureString = await response.text();
     
         if (userInput === "") {
