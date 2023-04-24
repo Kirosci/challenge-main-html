@@ -4,7 +4,7 @@
 # Redirect with a 302
 #
 # Show a custom 404 for this path
-/secure.txt  404
+/secure.txt    /404.html  404
 
 # Rewrite a path
 /index.html    200
