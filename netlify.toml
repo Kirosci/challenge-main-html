@@ -1,5 +1,5 @@
 # Show a custom 404 for this path
 [[redirects]]
-from = "/secure.txt"
-to = "/404.html"
+from = "/secure"
+to = "/notfound"
 status = 404
